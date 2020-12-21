@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Test Basics 1(failed)">
+    <classes>
+      <class name="com.qa.flipkart.testcase.MyProfilePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Enterdetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.flipkart.testcase.MyProfilePageTest -->
+      <class name="com.qa.flipkart.testcase.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+          <include name="MyprofileTab"/>
+        </methods>
+      </class> <!-- com.qa.flipkart.testcase.HomePageTest -->
+      <class name="com.qa.flipkart.testcase.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.qa.flipkart.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->

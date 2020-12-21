@@ -31,11 +31,12 @@ public static	webdriverlistener listernar;
 			FileInputStream fis=new FileInputStream("C:\\Users\\shree\\eclipse-workspace\\FlipkartDem\\src\\main\\java\\com\\qa\\flipkart\\config\\config.properties");
 		
 			prop.load(fis);
-		} catch (FileNotFoundException e) {
+		} catch (Exception e) {
 			
-			e.printStackTrace();
+		/*	e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}*/
 		}
 	}
 	
